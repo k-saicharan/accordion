@@ -1,5 +1,5 @@
 # Accordion
-### Scriptment-First, Director-Led
+
 
 ## Personal Note
 
@@ -10,6 +10,7 @@ The Accordion Method turned out to be a place to think as much as a place to dra
 If you're building your first screenplay, working without a team, or coming to this from the direction side rather than the writing side — this was made in that spirit. The process will meet you wherever your story is.
 
 ---
+### Scriptment-First, Director-Led
 
 A plug-and-use AI skill for developing a feature screenplay from a prose scriptment. The skill handles translation, formatting, and continuity discipline. You handle every creative decision.
 
