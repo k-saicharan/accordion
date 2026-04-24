@@ -43,14 +43,35 @@ The scriptment is not frozen. It informs the screenplay, and the screenplay info
 
 ## How to Install
 
-1. Copy `Workflow.md` into your project root.
-2. Copy `.claude/commands/accord.md` into your project's `.claude/commands/` folder. This enables the `/accord` slash command to start any session. In other AI tools, load `Workflow.md` directly as your system instructions.
-3. Create the folder structure (see below).
-4. Write your scriptment and place it in `00_source_material/`.
-5. Write your outline and dialogue log (even partial is fine).
-6. Create `session_primer.md` using the template inside `Workflow.md`.
-7. Copy `mission.md` to your project root and fill it in.
-8. Type `/accord` to start a session. The agent reads the primer and mission file, confirms the current scene, and begins Step 1.
+**Step 1 — Install the `/accord` command (once)**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/k-saicharan/accordion/main/install.sh | bash
+```
+
+This places `/accord` in `~/.claude/commands/` so it's available in Claude Code from any project.
+
+**Step 2 — Scaffold a new screenplay project**
+
+Navigate to your project folder, then:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/k-saicharan/accordion/main/new-project.sh | bash
+```
+
+This creates the full folder structure, downloads `Workflow.md` and `mission.md`, and generates empty source files with a pre-filled `session_primer.md` template.
+
+**Step 3 — Fill in your source material**
+
+- `session_primer.md` — project context (tone, world, continuity rules)
+- `mission.md` — current phase and scene state
+- `00_source_material/scriptment.md` — your prose scriptment
+- `00_source_material/outline.txt` — scene structure
+- `00_source_material/dialogue_log.txt` — confirmed verbatim dialogue (can start empty)
+
+**Step 4 — Start a session**
+
+Open the project folder in Claude Code and type `/accord`.
 
 ---
 
