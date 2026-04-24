@@ -1,6 +1,16 @@
 # Accordion
 ### Scriptment-First, Director-Led
 
+## Personal Note
+
+This workflow was built by a solo director — no team, working entirely from vision. The scriptment came first, scenes were drafted one by one, and somewhere in that process something unexpected happened: the screenplay started changing the scriptment. The writing forced a reckoning with what the story actually was, and the prose went back to reflect it. The pipeline runs both ways.
+
+The Accordion Method turned out to be a place to think as much as a place to draft. Locking an Action Summary and reading it back reveals what you actually believe about a scene — not just what you planned. That analytical layer wasn't designed in. It emerged from using the process.
+
+If you're building your first screenplay, working without a team, or coming to this from the direction side rather than the writing side — this was made in that spirit. The process will meet you wherever your story is.
+
+---
+
 A plug-and-use AI skill for developing a feature screenplay from a prose scriptment. The skill handles translation, formatting, and continuity discipline. You handle every creative decision.
 
 ---
@@ -177,12 +187,3 @@ The execution log is what makes this recoverable. If a scene goes in a direction
 
 ---
 
-## A Note
-
-This workflow was built by a solo director — no team, working entirely from vision. The scriptment came first, scenes were drafted one by one, and somewhere in that process something unexpected happened: the screenplay started changing the scriptment. The writing forced a reckoning with what the story actually was, and the prose went back to reflect it. The pipeline runs both ways.
-
-The Accordion Method turned out to be a place to think as much as a place to draft. Locking an Action Summary and reading it back reveals what you actually believe about a scene — not just what you planned. That analytical layer wasn't designed in. It emerged from using the process.
-
-If you're building your first screenplay, working without a team, or coming to this from the direction side rather than the writing side — this was made in that spirit. The process will meet you wherever your story is.
-
----
